@@ -2,7 +2,7 @@
 
 1、前往该地址[https://www.enterprisedb.com/downloads/postgres-postgresql-downloads下载PostggreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads下载PostggreSQL) 9.6.2版。
 
-![](/assets/下载界面)
+![](/assets/postgresql9.6下载界面.jpg)
 
 
 
