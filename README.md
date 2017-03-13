@@ -32,18 +32,84 @@
 
 ### 安装过程
 
-1. 开始安装，执行 
-   ```
-   ./postgresql-9.6.2-1-linux-x64.run
-   ```
-2. Installation Directory \[/opt/PostgreSQL/9.6\]
-   安装目录，回车
-3. Data Directory \[/opt/PostgreSQL/9.6/data\]，数据目录，回车
-4. Please provide a password for the database superuser \(postgres\). A locked Unix user account \(postgres\) will be created if not present.，输入密码
-5. Please select the port number the server should listen on. Port \[5432\]，端口，回车
-6. Select the locale to be used by the new database cluster. Locale，区域，回车
-7. Setup is now ready to begin installing PostgreSQL on your computer.Do you want to continue? \[Y/n\]，输入Y，回车
-8. Setup has finished installing PostgreSQL on your computer.最后看到提示，安装完成
+* 开始安装，执行 
+
+```
+./postgresql-9.6.2-1-linux-x64.run
+```
+
+```bash
+Welcome to the PostgreSQL Setup Wizard.
+
+1、指定PostgreSQL安装目录
+----------------------------------------------------------------------------
+Please specify the directory where PostgreSQL will be installed.
+
+Installation Directory [/opt/PostgreSQL/9.6]: /home/postgres/PostgreSQL/9.6
+
+
+2、指定PostgreSQL数据存放目录
+----------------------------------------------------------------------------
+Please select a directory under which to store your data.
+
+Data Directory [/home/postgres/PostgreSQL/9.6/data]: /home/postgres/PostgreSQL/9.6/data
+
+
+3、设置PostgreSQL数据库密码
+----------------------------------------------------------------------------
+Please provide a password for the database superuser (postgres). A locked Unix 
+user account (postgres) will be created if not present.
+
+Password :
+Retype password :
+
+
+4、设置PostgreSQL数据库端口
+----------------------------------------------------------------------------
+Please select the port number the server should listen on.
+
+Port [5432]: 5432
+
+
+5、设置PostgreSQL区域
+----------------------------------------------------------------------------
+Advanced Options
+
+Select the locale to be used by the new database cluster.
+
+Locale
+
+[1] [Default locale]
+……
+……
+
+Please choose an option [1] : 1
+
+
+6、确认安装
+----------------------------------------------------------------------------
+Setup is now ready to begin installing PostgreSQL on your computer.
+
+Do you want to continue? [Y/n]: Y
+
+
+7、安装
+----------------------------------------------------------------------------
+Please wait while Setup installs PostgreSQL on your computer.
+
+ Installing
+ 0% ______________ 50% ______________ 100%
+ ########################################
+
+
+8、安装完成
+----------------------------------------------------------------------------
+Setup has finished installing PostgreSQL on your computer.
+
+
+```
+
+
 
 ### 操作防火墙：
 
