@@ -161,3 +161,22 @@ Setup has finished installing PostgreSQL on your computer.
 
 
 
+### 设置环境变量
+
+* 编辑/etc/profile文件
+  ```
+  vi /etc/profile
+  ```
+
+* 在文件末位添加如下内容
+  ```
+  PGHOME=/home/postgres/PostgreSQL/9.6
+  export PGHOME
+  PGDATA=$PGHOME/data
+  export PGDATA
+  PATH=$PATH:$HOME/.local/bin:$HOME/bin:$PGHOME/bin
+  export PATH
+  ```
+
+
+
