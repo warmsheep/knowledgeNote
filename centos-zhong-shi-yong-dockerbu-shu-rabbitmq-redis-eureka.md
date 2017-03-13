@@ -182,7 +182,13 @@ docker-compose up -d
 docker-compose ps
 ```
 
+* 开启防火墙
 
+```
+firewall-cmd --zone=public --add-port=6379/tcp --permanent
+firewall-cmd --zone=public --add-port=26379/tcp --permanent
+firewall-cmd --reload
+```
 
 
 
