@@ -38,7 +38,7 @@
 ./postgresql-9.6.2-1-linux-x64.run
 ```
 
-```bash
+```
 Welcome to the PostgreSQL Setup Wizard.
 
 1、指定PostgreSQL安装目录
@@ -105,11 +105,7 @@ Please wait while Setup installs PostgreSQL on your computer.
 8、安装完成
 ----------------------------------------------------------------------------
 Setup has finished installing PostgreSQL on your computer.
-
-
 ```
-
-
 
 ### 操作防火墙：
 
