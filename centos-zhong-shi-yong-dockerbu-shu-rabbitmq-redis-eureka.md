@@ -61,7 +61,9 @@ firewall-cmd --zone=public --add-port=6379/tcp --permanent
 firewall-cmd --reload
 ```
 
-### 安装Redis容器集群版（不能外部访问）
+### 安装Redis容器集群版
+
+注意：该方式不能从外部访问Sentinel，获取到的可能是容器内网的IP地址，外部无法访问到，需要客户端也部署在容器内，通过容器内的DNS解析进行访问。通常用到服务编排来实现外部机器的访问。
 
 * 切换到/目录，并创建/docker\_data/redis\_container\_conf/目录
 
