@@ -201,8 +201,8 @@ docker pull frodenas/rabbitmq
 * 运行RabbitMQ容器
 
 ```
-docker run -d \    
-  --name rabbitmq \    
+docker run -d \
+  --name RabbitMQ-Container \
   -p 5672:5672 \
   -p 15672:15672 \
   -e RABBITMQ_USERNAME=rabbitmq \
@@ -210,8 +210,6 @@ docker run -d \
   -e RABBITMQ_VHOST=myvhost \
   frodenas/rabbitmq
 ```
-
-
 
 
 
