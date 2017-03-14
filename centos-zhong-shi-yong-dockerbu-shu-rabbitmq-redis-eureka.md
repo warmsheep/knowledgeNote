@@ -61,7 +61,7 @@ firewall-cmd --zone=public --add-port=6379/tcp --permanent
 firewall-cmd --reload
 ```
 
-### 安装Redis容器集群版
+### 安装Redis容器集群版（不能外部访问）
 
 * 切换到/目录，并创建/docker\_data/redis\_container\_conf/目录
 
@@ -190,15 +190,28 @@ firewall-cmd --zone=public --add-port=26379/tcp --permanent
 firewall-cmd --reload
 ```
 
-
-
 ### 安装RabbitMQ
 
 * 下载RabbitMQ镜像
 
 ```
-docker pull rabbitmq:3
+docker pull frodenas/rabbitmq
 ```
+
+* 运行RabbitMQ容器
+
+```
+docker run -d \    
+  --name rabbitmq \    
+  -p 5672:5672 \
+  -p 15672:15672 \
+  -e RABBITMQ_USERNAME=rabbitmq \
+  -e RABBITMQ_PASSWORD=rabbitmq \
+  -e RABBITMQ_VHOST=myvhost \
+  frodenas/rabbitmq
+```
+
+
 
 
 
