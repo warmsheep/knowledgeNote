@@ -213,5 +213,15 @@ docker run -d \
   frodenas/rabbitmq
 ```
 
+* 开启防火墙端口并重新启动防火墙
+
+```
+firewall-cmd --zone=public --add-port=5672/tcp --permanent
+firewall-cmd --zone=public --add-port=15672/tcp --permanent
+firewall-cmd --reload
+```
+
+
+
 
 
