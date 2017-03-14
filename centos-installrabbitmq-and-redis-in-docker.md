@@ -45,13 +45,13 @@ docker-compose --version
 * 下载Redis镜像
 
 ```
-docker pull redis:3
+docker pull redis:3.2.8
 ```
 
 * 运行Redis镜像（单机）
 
 ```
-docker run -d --name Redis-Container -p 6379:6379 redis:3
+docker run -d --name Redis-Container -p 6379:6379 redis:3.2.8
 ```
 
 * 开启防火墙端口并重新启动防火墙
@@ -220,8 +220,6 @@ firewall-cmd --zone=public --add-port=5672/tcp --permanent
 firewall-cmd --zone=public --add-port=15672/tcp --permanent
 firewall-cmd --reload
 ```
-
-
 
 
 
