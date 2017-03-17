@@ -6,4 +6,5 @@
 * [CentOS7 中使用Docker部署RabbitMQ/Redis](centos-install-rabbitmq-and-redis-in-docker.md)
 * [Docker Swarm部署](docker-swarm-deploy.md)
 * [CentOS7安装JDK8](centos7-install-jdk8.md)
+* [CentOS7源码安装Git](centos7-install-git.md)
 
