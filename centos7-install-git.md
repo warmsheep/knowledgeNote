@@ -20,16 +20,10 @@ wget https://www.kernel.org/pub/software/scm/git/git-1.9.4.tar.gz
 tar -zxvf git-1.9.4.tar.gz
 ```
 
-* 编译
+* 编译、安装
 
 ```
-cd git-1.9.4/ && make prefix=/usr/local/git all
-```
-
-* 安装
-
-```
-cd git-1.9.4/ && make prefix=/usr/local/git install
+cd git-1.9.4/ && make prefix=/usr/local/git all && make prefix=/usr/local/git install
 ```
 
 * 设置环境变量
