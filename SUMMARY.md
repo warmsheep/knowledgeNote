@@ -7,5 +7,5 @@
 * [Docker Swarm部署](docker-swarm-deploy.md)
 * [CentOS7安装JDK8](centos7-install-jdk8.md)
 * [CentOS7源码安装Git](centos7-install-git.md)
-* [GitLab](gitlab.md)
+* [GitLab操作](gitlab.md)
 
