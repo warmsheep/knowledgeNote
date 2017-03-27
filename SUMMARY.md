@@ -8,4 +8,5 @@
 * [CentOS7安装JDK8](centos7-install-jdk8.md)
 * [CentOS7源码安装Git](centos7-install-git.md)
 * [GitLab操作](gitlab.md)
+* [CXF生成客户端代码](cxf-generate-client-code.md)
 
