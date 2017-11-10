@@ -9,4 +9,6 @@
 * [CentOS7源码安装Git](centos7-install-git.md)
 * [GitLab操作](gitlab.md)
 * [CXF生成客户端代码](cxf-generate-client-code.md)
-* [CentOS7使用163源](centos7-use-163-yum.md) 
+* [CentOS7使用163源](centos7-use-163-yum.md)
+* [Docker导入导出镜像](docker-image.md)
+* [使用灵雀云加速](docker-use-alauda.md)
