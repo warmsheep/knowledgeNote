@@ -46,3 +46,11 @@ https: true
 gitlab-ctl stop
 gitlab-ctl start
 ```
+
+* 修改端口
+
+```shell
+vi /var/opt/gitlab/nginx/conf/gitlab-http.conf
+
+listen *:9090;
+```
