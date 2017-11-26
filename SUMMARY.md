@@ -12,3 +12,4 @@
 * [CentOS7使用163源](centos7-use-163-yum.md)
 * [Docker导入导出镜像](docker-image.md)
 * [使用灵雀云加速](docker-use-alauda.md)
+* [PostgreSQL10 源码安装](PostgreSQL/01.源码安装PostgreSQL10.md)
